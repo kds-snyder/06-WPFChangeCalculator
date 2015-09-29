@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfChangeCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfChangeCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#FFECC7C7">
+        <Label x:Name="label" Content="What is the price of the item?" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Width="248"/>
+        <TextBox x:Name="textBoxItemPrice" HorizontalAlignment="Left" Height="23" Margin="10,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" TextChanged="textBoxItemPrice_TextChanged" />
+        <Label x:Name="label1" Content="How much did the customer give you?" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.189,-0.188" Width="221"/>
+        <TextBox x:Name="textBoxAmountFromCustomer" HorizontalAlignment="Left" Height="23" Margin="10,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" TextChanged="textBoxAmountFromCustomer_TextChanged"/>
+        <Button x:Name="buttonCalculate" Content="Calculate Change" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top" Width="120" Click="button_Click"/>
+        <Label x:Name="labelQuarters" Content="Quarters:" HorizontalAlignment="Left" Margin="378,98,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="labelDimes" Content="Dimes: " HorizontalAlignment="Left" Margin="378,143,0,0" VerticalAlignment="Top" Width="119" RenderTransformOrigin="0.528,-0.687"/>
+        <Label x:Name="labelNickels" Content="Nickels:" HorizontalAlignment="Left" Margin="378,189,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="labelPennies" Content="Pennies:" HorizontalAlignment="Left" Margin="378,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.062,0.445" Width="119"/>
+        <Label x:Name="labelPriceError" Content="" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="330" Foreground="Red"/>
+        <Label x:Name="labelAmountGivenError" Content="" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Width="363" Foreground="Red"/>
+        <Button x:Name="buttonClearAll" Content="Clear All" HorizontalAlignment="Left" Margin="169,254,0,0" VerticalAlignment="Top" Width="89" Click="buttonClearAll_Click"/>
+        <Button x:Name="buttonClearPrice" Content="Clear" HorizontalAlignment="Left" Margin="263,63,0,0" VerticalAlignment="Top" Width="48" Height="23" Click="buttonClearPrice_Click"/>
+        <Button x:Name="buttonClearAmount" Content="Clear" HorizontalAlignment="Left" Margin="263,157,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.018,0.445" Click="buttonClearAmount_Click"/>
+        <Label x:Name="labelChange" Content="Change: &#xD;&#xA;" HorizontalAlignment="Left" Margin="378,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.134,0.493" Width="119"/>
+
+    </Grid>
+</Window>

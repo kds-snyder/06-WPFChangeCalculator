@@ -1,0 +1,15 @@
+C:\dev\WPFChangeCalculator\WpfChangeCalculator\bin\Debug\WpfChangeCalculator.exe.config
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\bin\Debug\WpfChangeCalculator.exe.config
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\bin\Debug\WpfChangeCalculator.exe
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\bin\Debug\WpfChangeCalculator.pdb
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.csprojResolveAssemblyReference.cache
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\MainWindow.g.cs
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\App.g.cs
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator_MarkupCompile.cache
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator_MarkupCompile.lref
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\MainWindow.baml
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.g.resources
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.Properties.Resources.resources
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.csproj.GenerateResource.Cache
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.exe
+C:\dev\06-WPFChangeCalculator\WpfChangeCalculator\obj\Debug\WpfChangeCalculator.pdb
